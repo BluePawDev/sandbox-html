@@ -4,8 +4,22 @@ body {
 }
 
 .pageHeader {
+  width: 80%;
+  margin: 5px 10%;
+  padding: 5px;
+  align-self: center;
   background-color: #d3d3d3;
   height: 80px;
+}
+
+.pageFooter {
+  width: 80%;
+  margin: 5px 10%;
+  padding: 5px;
+  align-self: center;
+  background-color: #d3d3d3;
+  height: 80px;
+  clear: both;
 }
 
 h1 {
@@ -32,4 +46,29 @@ dt {
 dd {
   font-style: italic;
   color: #808080;
+}
+
+div {
+  border: .5px black solid;
+  border-radius: 5px;
+}
+
+.mainContent {
+  width: 80%;
+  margin: 5px 10%;
+  align-self: center;
+}
+
+.mainBody {
+  width: 68%;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+
+.rightSideBar {
+  width: 28%;
+  margin: 5px;
+  padding: 5px;
+  float: right;
 }
