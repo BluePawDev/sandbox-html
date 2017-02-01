@@ -72,3 +72,7 @@ div {
   padding: 5px;
   float: right;
 }
+
+a:focus {
+  font-weight: bold;
+}
